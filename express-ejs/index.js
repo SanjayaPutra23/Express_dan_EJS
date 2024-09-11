@@ -22,8 +22,8 @@ app.get('/t/:tag', (req, res) => {
 	}
 });
 
-app.get('/cats', (req, res) => {
-	const cats = ['embul', 'felix', 'mio', 'timi'];
+app.get('/Kelompok1', (req, res) => {
+	const cats = ['Ayu Rianti', 'Reyna Santani', 'Diva Baihaqi', 'Sanjaya'];
 	res.render('cats', { cats });
 });
 
